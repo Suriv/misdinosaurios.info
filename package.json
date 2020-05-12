@@ -1,6 +1,7 @@
 {
   "name": "misdinosaurios.info",
   "description": "misdinosaurios.info",
+  "license": "Apache-2.0",
   "version": "0.0.2",
   "author": "jabrena/",
   "repository": {
