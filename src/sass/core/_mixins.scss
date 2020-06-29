@@ -39,6 +39,7 @@
     bottom: -1.4rem;
     @include svg('separator');
     background-size: cover;
+    z-index:1;
   }
 }
 

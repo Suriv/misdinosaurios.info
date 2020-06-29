@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.contents{
+  background:$dino-07;
+  padding:2rem 1rem 3rem 1rem;
+  position: relative;
+  @include separator();
+  @media (map-get($rd-types, lg)){
+  }
+}
