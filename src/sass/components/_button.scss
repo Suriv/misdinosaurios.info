@@ -2,8 +2,8 @@
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: $dinoc-02;
+  color: $dino-02;
   text-shadow: none; // Prevent inheritance from `body`
-  background-color: $dinoc-01;
-  border: .05rem solid $dinoc-01;
+  background-color: $dino-01;
+  border: .05rem solid $dino-01;
 }

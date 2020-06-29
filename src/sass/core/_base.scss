@@ -3,22 +3,26 @@ html{
 	-ms-text-size-adjust: 100%;
  	-webkit-text-size-adjust: 100%;
  	-moz-text-size-adjust: 100%;
-  //font-size:x-small;
+  font-size:x-small;
+}
+header, div{
+	outline:none;
 }
 html,
 body {
+  @extend %bodyCopy;
   height: 100%;
-  background-color: $dinoc-02;
+  background-color: $dino-02;
 }
 
 body {
   display: flex;
-  color: $dinoc-01;
+  color: $dino-01;
 }
 
 
 a,
 a:focus,
 a:hover {
-  color: $dinoc-01;
+  color: $dino-01;
 }

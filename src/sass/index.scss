@@ -1,10 +1,10 @@
 @charset "UTF-8";
 // Copyright (c) 2020 misdinosaurios.info.
 
-@import "lib/bootstrap.min";
+@import "lib/reset";
 @import "core/var";
 @import "core/_mixins";
-
+@import "core/fonts";
 //Modules
 
 @import "core/base";
