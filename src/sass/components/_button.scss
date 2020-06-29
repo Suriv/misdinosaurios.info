@@ -1,9 +1,11 @@
 @charset "UTF-8";
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: $dino-02;
-  text-shadow: none; // Prevent inheritance from `body`
-  background-color: $dino-01;
-  border: .05rem solid $dino-01;
+.btn{
+  display: inline-block;
+  padding:1rem 2.6rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+
+  &:hover{
+    background:$dino-08_op_5;
+  }
 }

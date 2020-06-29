@@ -2,10 +2,41 @@
 .cover{
   background:$dino-03;
   margin:0 0  2rem 0;
-  padding:1rem;
+  padding:1rem 1rem 3rem 1rem;
+  position: relative;
+
+  div{
+    text-align:center;
+    p{
+      font-size:2rem;
+      font-weight: bold;
+      margin:0 0 3rem 0
+    }
+    a{
+      font-size:1.4rem;
+    }
+  }
   .btn-lg {
     padding: .75rem 1.25rem;
     font-weight: 700;
   }
+
+  @include separator();
+  @media (map-get($rd-types, lg)){
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+      width:45%;
+      p{
+        margin:0 0 4rem 0
+      }
+      a{
+        font-size:1.4rem;
+      }
+    }
+  }
+
 
 }

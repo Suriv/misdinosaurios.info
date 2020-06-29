@@ -11,52 +11,44 @@ pre{
     margin:0 0 2rem 0;
 
   code.ascii{
-      font-family:monospace;
-      color: $dino-01;
+    font-family:monospace;
+    color: $dino-01;
   }
   &.bro{
     font-size:76%;
   }
+  &.ste{
+    font-size:90%;
+  }
 
   @media (map-get($rd-types, lg)){
-    height:236px;
-    max-height:236px;
+    height:23.6rem;
+    width:47%;
     overflow: hidden;
-    margin:0 0 25px 0;
+    margin:0;
     padding:0;
 
     code.ascii{
-      display:block;
-      width:80%;
-      margin:0 auto;
-      height:236px;
-      max-height:236px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
       overflow: hidden;
+      width: 100%;
     }
 
     &.ank{
       font-size:92%;
-      .ascii{
-        padding:0 34px;
-      }
     }
     &.bro{
-      font-size:61%;
-      .ascii{
-        padding:0 34px;
-      }
+      font-size:initial;
     }
+
     &.pte{
       font-size:66%;
-      .ascii{
-        padding:0 65px;
-      }
     }
     &.ste {
       font-size:82%;
-      .ascii{
-        padding:0 20px;
-      }
     }
   }
 }
