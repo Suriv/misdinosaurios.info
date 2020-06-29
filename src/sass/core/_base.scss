@@ -11,12 +11,12 @@ header, div{
 html,
 body {
   @extend %bodyCopy;
-  height: 100%;
-  background-color: $dino-02;
+
 }
 
 body {
-  display: flex;
+  height: 100%;
+  background-color: $dino-02;
   color: $dino-01;
 }
 
@@ -25,4 +25,5 @@ a,
 a:focus,
 a:hover {
   color: $dino-01;
+  text-decoration:none;
 }

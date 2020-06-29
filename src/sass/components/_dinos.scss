@@ -1,15 +1,21 @@
 @charset "UTF-8";
 
 pre{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: monospace;
     white-space: pre;
-    margin: 1em 0px 25px 0px;
     text-align: initial;
+    height:15.5rem;
+    margin:0 0 2rem 0;
 
   code.ascii{
       font-family:monospace;
       color: $dino-01;
+  }
+  &.bro{
+    font-size:76%;
   }
 
   @media (map-get($rd-types, lg)){

@@ -6,7 +6,6 @@
 // }
 
 function upgradeDino() {
-    console.log("Upgrading Dino")
     var dinosaursList = [
         "stegosaurus.html",
         "ankylosaurus.html",
