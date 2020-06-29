@@ -1,9 +1,12 @@
 @charset "UTF-8";
 .btn{
   display: inline-block;
+  background:none;
+  border:none;
+  color:$dino-01;
   padding:1rem 2.6rem;
   border-radius: 0.8rem;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px 0 $dino-08_op_5;
 
   &:hover{
     background:$dino-08_op_5;

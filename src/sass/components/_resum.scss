@@ -1,8 +1,13 @@
 @charset "UTF-8";
 .resum{
   background:$dino-04;
-  padding:2rem 1rem 3rem 1rem;
+  padding:2rem 1rem 1rem 1rem;
   position: relative;
+
+  p{
+    font-size:1.4rem;
+    margin:0 0 1rem 0;
+  }
 
 
   @include separator();

@@ -3,6 +3,13 @@
   background:$dino-03;
   padding:2rem 1rem 1rem 1rem;
   position: relative;
+
+  .btn{
+    background:$dino-06;
+    &:hover{
+      background:$dino-06_op_5;
+    }
+  }
   @media (map-get($rd-types, lg)){
   }
 }
