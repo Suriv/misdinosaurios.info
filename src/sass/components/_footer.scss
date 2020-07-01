@@ -1,4 +1,11 @@
 @charset "UTF-8";
- .mastfoot {
-  color: rgba(255, 255, 255, .5);
-}
+ footer{
+   padding:1rem;
+   text-align:center;
+   p{
+     font-size:1.4rem;
+     a{
+       color:$dino-07;
+     }
+   }
+ }
